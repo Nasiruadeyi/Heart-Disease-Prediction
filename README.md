@@ -37,7 +37,6 @@ heart-disease-ml/
 │
 ├── data/
 │ ├── raw/ # Original dataset
-│ └── processed/ # Optional: processed data (gitignored)
 │
 ├── src/
 │ ├── data_loader.py # Load and preprocess data
