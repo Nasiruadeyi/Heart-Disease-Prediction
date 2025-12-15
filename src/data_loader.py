@@ -3,9 +3,10 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-def load_data(file_path):
+def load_data(file_path="data/heart_stat.xlsx"):
     """
     Load the raw Excel dataset.
+    Default path points to 'data/heart_stat.xlsx'.
     """
     df = pd.read_excel(file_path)
     return df
